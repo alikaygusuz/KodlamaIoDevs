@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface LanguagesRepository {
     List<Languages> getAll();
-    void add(Languages language);
-    void update(Languages language, int id);
-    void delete(int id);
+    Languages add(Languages language);
+    Languages update(Languages language, int id);
+    Languages delete(int id);
     Languages getById(int getElementId);
 }

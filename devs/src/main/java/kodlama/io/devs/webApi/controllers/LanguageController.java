@@ -28,8 +28,9 @@ public class LanguageController {
     }
 
     @PostMapping
-    public void add(@RequestBody Languages language) throws Exception {
-        languageService.add(language);
+    public Languages add(@RequestBody Languages language) throws Exception {
+         return languageService.add(language);
+
     }
 
     @PutMapping("/{id}")

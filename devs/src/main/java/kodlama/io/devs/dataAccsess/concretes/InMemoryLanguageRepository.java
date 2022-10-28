@@ -26,24 +26,28 @@ public class InMemoryLanguageRepository implements LanguagesRepository {
     }
 
     @Override
-    public void add(Languages language) {
-        languages.add(new Languages(language.getId(), language.getName()));
+    public Languages add(Languages language) {
+         languages.add(language);
+         return getById(language.getId());
+
     }
 
     @Override
-    public void update(Languages language, int id) {
+    public Languages update(Languages language, int id) {
         List<Languages> languagesList = getAll();
         for (Languages l: languagesList) {
             if (l.getId() == id ){
                 l.setName(language.getName());
             }
         }
+        return null;
     }
 
     @Override
-    public void delete(int id) {
+    public Languages delete(int id) {
         List<Languages> languagesList = getAll();
         languagesList.removeIf(l -> l.getId() == id);
+        return null;
     }
 
     @Override
