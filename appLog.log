@@ -1,0 +1,229 @@
+2022-10-28 15:33:11,693 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 31552 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:33:11,694 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:33:11,728 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:33:11,728 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:33:12,281 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:33:12,286 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:33:12,287 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:33:12,414 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:33:12,414 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 685 ms
+2022-10-28 15:33:12,634 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:33:12,655 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:33:12,662 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.178 seconds (JVM running for 1.702)
+2022-10-28 15:33:23,637 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:33:23,638 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:33:23,641 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-10-28 15:33:23,723 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] Yeni bir programlama dili YARLIG tarafından eklendi!
+2022-10-28 15:34:11,302 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 17084 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:34:11,304 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:34:11,341 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:34:11,341 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:34:11,904 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:34:11,909 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:34:11,910 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:34:12,054 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:34:12,054 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 712 ms
+2022-10-28 15:34:12,269 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:34:12,294 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:34:12,301 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.211 seconds (JVM running for 1.721)
+2022-10-28 15:34:17,653 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:34:17,653 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:34:17,653 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2022-10-28 15:34:17,702 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] Yeni bir programlama dili YARLIG tarafından kodlama.io.devs.entities.concretes.Languages@78276d9d objesi eklendi!
+2022-10-28 15:35:24,307 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 30412 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:35:24,308 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:35:24,342 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:35:24,342 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:35:24,888 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:35:24,895 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:35:24,895 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:35:25,038 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:35:25,038 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 696 ms
+2022-10-28 15:35:25,246 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:35:25,267 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:35:25,275 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.173 seconds (JVM running for 1.68)
+2022-10-28 15:35:29,158 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:35:29,159 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:35:29,159 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2022-10-28 15:35:29,210 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-2] Yeni bir programlama dili YARLIG tarafından ZZZ, 7 objesi eklendi!
+2022-10-28 15:37:34,435 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 31272 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:37:34,438 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:37:34,474 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:37:34,474 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:37:35,019 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:37:35,026 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:37:35,026 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:37:35,161 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:37:35,161 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 686 ms
+2022-10-28 15:37:35,385 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:37:35,406 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:37:35,412 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.186 seconds (JVM running for 1.699)
+2022-10-28 15:37:50,660 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:37:50,661 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:37:50,663 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-28 15:37:50,776 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] Yeni bir programlama dili YARLIG tarafından {html}, {7} objesi eklendi!
+2022-10-28 15:38:45,865 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 25732 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:38:45,867 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:38:45,899 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:38:45,899 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:38:46,424 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:38:46,429 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:38:46,429 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:38:46,538 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:38:46,539 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 640 ms
+2022-10-28 15:38:46,740 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:38:46,763 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:38:46,769 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.113 seconds (JVM running for 1.621)
+2022-10-28 15:38:50,732 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:38:50,732 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:38:50,733 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-10-28 15:38:50,781 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-2] Yeni bir programlama dili YARLIG tarafından {'name'} = {html}, {'id'} = {7} objesi eklendi!
+2022-10-28 15:42:11,784 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 14920 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:42:11,786 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:42:11,822 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:42:11,822 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:42:12,381 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:42:12,387 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:42:12,387 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:42:12,516 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:42:12,516 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 694 ms
+2022-10-28 15:42:12,738 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:42:12,774 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:42:12,782 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.209 seconds (JVM running for 1.725)
+2022-10-28 15:42:23,069 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:42:23,069 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:42:23,070 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-28 15:42:23,192 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] {'id'} = {2} objesi YARLIG tarafından {'name'} = { html}, {'id'} = {4} objesi eklendi!
+2022-10-28 15:43:02,283 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 25660 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:43:02,284 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:43:02,316 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:43:02,316 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:43:02,833 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:43:02,839 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:43:02,839 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:43:02,965 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:43:02,965 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 649 ms
+2022-10-28 15:43:03,173 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:43:03,198 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:43:03,204 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.116 seconds (JVM running for 1.617)
+2022-10-28 15:43:27,248 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:43:27,248 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:43:27,249 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-28 15:43:27,299 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] 'id' = {2} objesi YARLIG tarafından 'name' = {html}, 'id' = {4} olarak güncellendi!
+2022-10-28 15:50:10,093 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 30744 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:50:10,094 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:50:10,130 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:50:10,130 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:50:10,668 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:50:10,673 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:50:10,673 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:50:10,789 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:50:10,789 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 659 ms
+2022-10-28 15:50:10,996 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:50:11,019 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:50:11,025 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.141 seconds (JVM running for 1.658)
+2022-10-28 15:50:21,437 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:50:21,437 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:50:21,438 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-10-28 15:50:21,449 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-1] Bütün programlama dilleri listelendi!
+2022-10-28 15:50:25,195 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.IllegalFormatConversionException: d != java.lang.String] with root cause
+java.util.IllegalFormatConversionException: d != java.lang.String
+	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4510)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3055)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3010)
+	at java.base/java.util.Formatter.format(Formatter.java:2781)
+	at java.base/java.util.Formatter.format(Formatter.java:2717)
+	at java.base/java.lang.String.format(String.java:4150)
+	at kodlama.io.devs.business.concretes.LanguageManager.getById(LanguageManager.java:71)
+	at kodlama.io.devs.webApi.controllers.LanguageController.getById(LanguageController.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2022-10-28 15:50:28,780 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-5] 'id' = {2} objesi YARLIG tarafından 'name' = { html}, 'id' = {4} olarak güncellendi!
+2022-10-28 15:50:32,023 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-6] id parametresi 'id' = {2} olan obje YARLIG tarafından silindi!
+2022-10-28 15:50:35,338 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-7] Yeni bir programlama dili YARLIG tarafından 'name' = {html}, 'id' = {7} objesi eklendi!
+2022-10-28 15:53:38,325 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 6832 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:53:38,325 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:53:38,360 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:53:38,360 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:53:38,920 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:53:38,925 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:53:38,926 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:53:39,086 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:53:39,086 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 725 ms
+2022-10-28 15:53:39,295 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:53:39,321 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:53:39,328 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.217 seconds (JVM running for 1.73)
+2022-10-28 15:53:44,754 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:53:44,754 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:53:44,755 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2022-10-28 15:53:44,767 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-2] Bütün programlama dilleri listelendi!
+2022-10-28 15:53:48,533 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-4] Id parametresi 'id' = {2} objesi YARLIG tarafından getirildi
+2022-10-28 15:53:52,716 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-3] Id parametresi 'id' = {2} objesi YARLIG tarafından 'name' = { html}, 'id' = {4} olarak güncellendi!
+2022-10-28 15:53:56,639 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-5] Id parametresi 'id' = {2} olan obje YARLIG tarafından silindi!
+2022-10-28 15:54:00,122 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-6] Yeni bir programlama dili YARLIG tarafından 'name' = {html}, 'id' = {7} objesi eklendi!
+2022-10-28 15:54:58,818 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Starting DevsApplication using Java 19 on YARLIG with PID 26980 (C:\KodlamaIoDevs\devs\target\classes started by aliik in C:\KodlamaIoDevs)
+2022-10-28 15:54:58,820 [INFO] kodlama.io.devs.DevsApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-28 15:54:58,854 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-28 15:54:58,855 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-28 15:54:59,390 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-10-28 15:54:59,395 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2022-10-28 15:54:59,396 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-28 15:54:59,550 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-10-28 15:54:59,550 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 695 ms
+2022-10-28 15:54:59,758 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-10-28 15:54:59,782 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-28 15:54:59,788 [INFO] kodlama.io.devs.DevsApplication [restartedMain] Started DevsApplication in 1.172 seconds (JVM running for 1.698)
+2022-10-28 15:55:04,998 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-28 15:55:04,999 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-10-28 15:55:04,999 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 0 ms
+2022-10-28 15:55:05,012 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-2] Bütün programlama dilleri listelendi!
+2022-10-28 15:55:08,425 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-3] Id parametresi 'id' = {2} olan obje YARLIG tarafından getirildi
+2022-10-28 15:55:12,091 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-4] Id parametresi 'id' = {2} olan obje YARLIG tarafından 'name' = { html}, 'id' = {4} olarak güncellendi!
+2022-10-28 15:55:15,271 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-5] Id parametresi 'id' = {2} olan obje YARLIG tarafından silindi!
+2022-10-28 15:55:19,789 [TRACE] kodlama.io.devs.business.concretes.LanguageManager [http-nio-8080-exec-6] Yeni bir programlama dili YARLIG tarafından 'name' = {html}, 'id' = {7} objesi eklendi!
