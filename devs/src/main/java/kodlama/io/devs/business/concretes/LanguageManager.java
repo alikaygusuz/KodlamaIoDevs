@@ -1,5 +1,7 @@
 package kodlama.io.devs.business.concretes;
 
+import kodlama.io.devs.business.Request.LanguageRequest;
+import kodlama.io.devs.business.Response.LanguageResponse;
 import kodlama.io.devs.business.abstracts.LanguageService;
 import kodlama.io.devs.dataAccsess.abstracts.LanguagesRepository;
 import kodlama.io.devs.entities.concretes.Languages;
@@ -7,14 +9,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import java.util.regex.Pattern;
 
-
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 
 @Service
-public class LanguageManager implements LanguageService  {
+public class LanguageManager implements LanguageService {
     Logger logger = LoggerFactory.getLogger(LanguageManager.class);
 
     private LanguagesRepository languagesRepository;
@@ -28,66 +30,88 @@ public class LanguageManager implements LanguageService  {
     }
 
     @Override
-    public List<Languages> getAll() {
+    public List<LanguageResponse> getAll() {
         logger.trace("Bütün programlama dilleri listelendi!");
-        return languagesRepository.getAll();
-    }
-
-    @Override
-    public Languages add(Languages language)throws Exception {
-        if(isNameExist(language)) throw new Exception("Programlama dili ismi tekrar edemez!!!");
-        if(isIdExist(language.getId())) throw new Exception("Id tekrar edemez!!!");
-        if (language.getName().isEmpty()){
-            throw  new Exception("İsim parametresi boş bıralılamaz");
+        List<LanguageResponse> languageResponses = new ArrayList<>();
+        for (Languages lang: languagesRepository.findAll()) {
+            languageResponses.add(createLanguageResponse(lang));
         }
-        String s = language.getName();
-        if (!Pattern.matches("[a-zA-Z]+",s)) {
-            throw  new Exception("İsim parametresi bir karakter içermelidir!" );
+        return languageResponses;
+    }
+
+    @Override
+    public void add(LanguageRequest languageRequest) throws Exception {
+        if (isNameExist(languageRequest)) throw new Exception("Programlama dili ismi tekrar edemez!!!");
+        if (languageRequest.getName().isBlank()) {
+            throw new Exception("İsim parametresi boş bıralılamaz");
         }
-        logger.trace(String.format("Yeni bir programlama dili %s tarafından 'name' = {%s}, 'id' = {%d} objesi eklendi!", "YARLIG", language.getName(), language.getId()));
-        return languagesRepository.add(language);
+        logger.trace(String.format("Yeni bir programlama dili %s tarafından 'name' = {%s}, objesi eklendi!", "YARLIG", languageRequest.getName()));
+        Languages languages = new Languages();
+        languages.setName(languageRequest.getName());
+        languagesRepository.save(languages);
 
     }
 
     @Override
-    public Languages update(Languages language, int id)throws Exception {
-        if(isNameExist(language)) throw new Exception("Programlama dili ismi tekrar edemez!!!");
-        if(!isIdExist(id)) throw new Exception("Id bulunamadı!!!");
-        logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından 'name' = {%s}, 'id' = {%d} olarak güncellendi!", id, "YARLIG", language.getName(), language.getId()));
-        return languagesRepository.update(language, id);
+    public void update(LanguageRequest languageRequest, int id) throws Exception {
+        if (isNameExist(languageRequest)) throw new Exception("Programlama dili ismi tekrar edemez!!!");
+        if (!isIdExist(id)) throw new Exception("Id bulunamadı!!!");
+        logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından 'name' = {%s}, olarak güncellendi!", id, "YARLIG", languageRequest.getName()));
+        Languages languages = new Languages();
+        languages.setId(id);
+        languages.setName(languageRequest.getName());
+        languagesRepository.save(languages);
 
     }
 
     @Override
-    public Languages delete(int id)throws Exception {
-        if(!isIdExist(id)) throw new Exception("Id bulunamadı!!!");
+    public void delete(int id) throws Exception {
+        if (!isIdExist(id)) throw new Exception("Id bulunamadı!!!");
         logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından silindi!", id, "YARLIG"));
-        return languagesRepository.delete(id);
+        languagesRepository.deleteById(id);
     }
 
     @Override
-    public Languages getById(int getElementId)throws Exception {
-        if(!isIdExist(getElementId)) throw new Exception("Id bulunamadı!!!");
-        logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından getirildi", getElementId, "YARLIG"));
-        return languagesRepository.getById(getElementId);
-    }
-
-    public boolean isNameExist (Languages languages){
-        for (Languages l:languagesRepository.getAll()) {
-            if (l.getName().equalsIgnoreCase(languages.getName())){
-                return true;
-            }
+    public LanguageResponse getById(int getElementId) throws Exception {
+        Optional<Languages> language = languagesRepository.findById(getElementId);
+        if(language.isPresent()){
+            logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından getirildi", getElementId, "YARLIG"));
+            return createLanguageResponse(language.get());
         }
-        return false;
+        logger.trace(String.format("Id parametresi 'id' = {%d} olan obje bulunamadı!", getElementId, "YARLIG"));
+        throw new Exception("Id bulunamadı!!!");
+
+
     }
 
-    public boolean isIdExist (int id){
-        for (Languages I:languagesRepository.getAll()) {
-            if (I.getId() ==id){
-                return true;
-            }
+    @Override
+    public Languages getByLanguageId(int getElementId) throws Exception {
+        Optional<Languages> language = languagesRepository.findById(getElementId);
+        if(language.isPresent()){
+            logger.trace(String.format("Id parametresi 'id' = {%d} olan obje %s tarafından getirildi", getElementId, "YARLIG"));
+            return language.get();
         }
-        return false;
+        logger.trace(String.format("Id parametresi 'id' = {%d} olan obje bulunamadı!", getElementId, "YARLIG"));
+        throw new Exception("Id bulunamadı!!!");
     }
 
+    public boolean isNameExist(LanguageRequest languageRequest) {
+       return languagesRepository.existsByNameIgnoreCase(languageRequest.getName());
+    }
+
+    public boolean isIdExist(int id) {
+        return languagesRepository.existsById(id);
+        }
+
+
+
+
+    private LanguageResponse createLanguageResponse(Languages languages){
+        LanguageResponse languageResponse = new LanguageResponse();
+        languageResponse.setId(languages.getId());
+        languageResponse.setName(languages.getName());
+        return languageResponse;
+    }
 }
+
+
